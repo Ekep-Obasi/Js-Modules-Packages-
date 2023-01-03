@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+body  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #DFDFDFDF;
+}
+
+.container  {
+  display: flex;
+  gap: 20px;
+  font-size: 2em;
+}
+
+button  {
+  border-radius: 50%;
+  border: none;
+}
+
+button:hover , button:active{
+  scale: 0.95;
+}
